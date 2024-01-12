@@ -1,5 +1,6 @@
 function trailingZeros(n) {
   //your JS code here. If required.
+	if(n == 0) return 0;
 	function fact(n) {
 		if(n == 1) return 1
 		return n * fact(n-1);
@@ -15,5 +16,5 @@ function trailingZeros(n) {
 	return count
 }
 
-const input = prompt("Enter a number");
+//const input = prompt("Enter a number");
 alert(trailingZeros(input));
